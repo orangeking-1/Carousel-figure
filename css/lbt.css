@@ -1,0 +1,86 @@
+body{
+    background-color: #f5f5f5;
+}
+.jd_zhu{
+    max-width:640px;
+    min-width:320px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    /*background-color: red;*/
+}
+
+/*-------header--------*/
+.jd_header{
+    width: 100%;
+    position: fixed !important;
+    height: 40px;
+    top: 0;
+    /*background-color: red;*/
+    z-index: 2;
+}
+.jd_header,.ji_header_box{
+    max-width:640px;
+    min-width:320px;
+    height: 40px;
+    margin:0 auto;
+    position: relative;
+    background-color: rgba(201,21,35,0);
+}
+
+
+
+/*开始轮播图*/
+.jd_banner{
+    width: 100%;
+    position: relative;
+}
+.lunbo{
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.lunbo ul{
+    width: 1000%;
+    list-style: none;
+    transform: translateX(-10%);
+    font-size: 0;
+}
+.lunbo ul li{
+    width: 10%;
+    float: left;
+}
+.lunbo ul li img{
+    width: 100%;
+}
+.ruandian{
+    width: 118px;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 10px;
+    /*background-color: #ffffff;*/
+}
+.ruandian ul li{
+    width: 6px;
+    height: 6px;
+    border:1px solid #ffffff;
+    border-radius: 3px;
+    float: left;
+    margin-right: 8px;
+}
+/*设置交集选择器，给js用*/
+.ruandian ul li.now{
+    background-color: #fff;
+}
+/*结束轮播图*/
+
+
+
+
+
+
+
+
